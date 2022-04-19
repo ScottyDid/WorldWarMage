@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D5495BE5-F893-D9E4-4B06-296B3CE9FA78}</ProjectGuid>
+    <ProjectGuid>{FC0BB627-6C7C-3B02-CDBC-90C1AA4ED0CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -93,6 +93,7 @@
     <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\UnitHighlighterAggregator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateWaitingForInput.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DamageCellEvaluator.cs" />
+    <Compile Include="Assets\Scripts\SquareCell.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\NaiveAiPlayer.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\PositionProximityCellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Cells\Highlighters\CellSpriteRendererHighlighter.cs" />
@@ -184,7 +185,6 @@
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\GameEndCondition.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Tutorial\Scripts\SampleUnit.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Gui\GUIController.cs" />
-    <Compile Include="Assets\Scripts\SquareCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TBS Framework\Examples\Example4\Scenes\Readme.txt" />
